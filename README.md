@@ -1,5 +1,5 @@
 # COVID-19 SIR simulation in Python
-This repository contains the simulation code used to simulate the 'flatten the curve' figure along with some other figures.
+This repository contains the simulation code used to simulate the 'flatten the curve' figure along with some other figures. We used the SIR (susceptible, infectious, recovered) model, one of the typical compartmental models in epidemiology.
 **The accompanying article (PDF file) discusses the results of the model and explains the physics behind the model.**
 
 ### Simulation method
@@ -14,3 +14,6 @@ When the duration of the illness is finite, the result of social distancing is t
 
 When people stop social distancing too early, the simulations clearly show that the number of cases increases when the initial percentage of social distancing was high. The main message from the figure below is that we should take care not to stop too early with the social distancing for that matter. 
 ![Temporary social distancing](https://raw.githubusercontent.com/DaanWielens/covid19-python/master/covid19_v2_socdist35s.png)
+
+To see the effects of (temporary) social distancing on the maximum number of people that could end up in the hospital simultaneously, we plot the maxima of all simulated curves in the figure below. 
+![Maxima of simulated curves](https://raw.githubusercontent.com/DaanWielens/covid19-python/master/covid19_v2_tempsocdist.png)
